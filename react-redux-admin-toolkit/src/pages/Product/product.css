@@ -1,0 +1,35 @@
+.previewProduct {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+  gap: 10px;
+}
+
+.previewProductItem {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  cursor: pointer;
+}
+
+.previewProductItem img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+}
+.previewProductItem button {
+  font-size: 22px;
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  color: red;
+  transition: all 0.5s ease-in;
+  opacity: 0.3;
+}
+
+.previewProductItem:hover button {
+  transform: scale(1.3);
+  opacity: 1;
+}

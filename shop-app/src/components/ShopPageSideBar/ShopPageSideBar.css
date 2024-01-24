@@ -1,0 +1,16 @@
+.tagList a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  color: #000;
+  margin: 5px;
+  transition: 0.3s;
+}
+
+.tagList a:hover {
+  background-color: #336699;
+  color: #fff;
+  border: 1px solid #336699;
+}
